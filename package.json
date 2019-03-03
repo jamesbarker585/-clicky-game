@@ -1,6 +1,7 @@
 {
+  "homepage": "https://jamesbarker585.github.io/github.io-clicky-game/",
   "name": "air-force-clicky-game",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
@@ -11,11 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "description": "memory game",
-  "main": "index.js",
-  "repository": "https://github.com/jamesbarker585/-clicky-game",
-  "author": "james barker <jamesbarker585@gmail.com>",
-  "license": "MIT"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
 }
