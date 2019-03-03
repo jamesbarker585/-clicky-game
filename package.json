@@ -15,7 +15,7 @@
   },
   "description": "memory game",
   "main": "index.js",
-  "repository": "git@github.com:jamesbarker585/github.io-clicky-game.git",
+  "repository": "https://github.com/jamesbarker585/-clicky-game",
   "author": "james barker <jamesbarker585@gmail.com>",
   "license": "MIT"
 }
